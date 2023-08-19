@@ -1,0 +1,31 @@
+@font-face {     
+    font-family: 'Journey to Thailand Light';
+    src: url('../fonts/Journey-to-Thailand-Light.eot');
+    src: url('../fonts/Journey-to-Thailand-Light.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Journey-to-Thailand-Light.ttf') format('truetype');
+}
+.bs-slider{overflow: hidden;position: relative;background: transparent;}
+.bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
+    margin: auto;  width: 100% !important;}
+ 
+/*---------- LEFT/RIGHT ROUND CONTROL ----------*/
+.carousel-control .fa{font-size: 5rem;}
+  
+/*---------- SLIDE CAPTION ---------------*/
+.carousel-item h2{font-family: 'Journey to Thailand Light'; font-size: 5vw; text-shadow: 0.1em 0.05em 0.05em rgba(0, 0, 0, 0.3); -moz-text-shadow: 0.1em 0.05em 0.05em rgba(0, 0, 0, 0.3); -webkit-text-shadow: 0.1em 0.05em 0.05em rgba(0, 0, 0, 0.3); -ms-text-shadow: 0.1em 0.05em 0.05em rgba(0, 0, 0, 0.3);font-weight: normal;line-height: 1;padding: 15px;
+overflow: visible;}
+
+.slide1-text1 {left: 5%; bottom: 5%; margin: auto; position: absolute; text-align: left; color: #fff; }
+.slide1-text2 {top: 2%; right: 15%; margin: auto; position: absolute; color: #000; text-align: right; text-shadow:initial !important;}
+
+.slide2-text1 {left: 19%; top: 3%; margin: auto; position: absolute; color: #fff; text-align: center; text-shadow:initial !important;}
+.slide2-text2 { top: 1%; right: 15%; margin: auto; position: absolute; color: #000; text-align: center;text-shadow:initial !important;}  
+
+.slide3-text1 {left: 3%; top:3%; margin: auto; position: absolute; color: #fff; text-align: left; }          
+.slide3-text2 {bottom: 4%; right: 5%; margin: auto;position: absolute; text-align: right;  color: #fff; }
+
+.slide4-text1 {left: 4%; top: 3%; margin: auto;  position: absolute; color: #000; text-align: left; text-shadow:initial !important;}
+.slide4-text2 {top: 3%; right: 9%; margin: auto; position: absolute; color: #000; text-align: right;text-shadow:initial !important;} 
+
+.slide5-text1 {left: 5%; top: 4%; margin: auto; position: absolute; color: #fff; text-align: left; }          
+.slide5-text2 {bottom: 3%; right: 7%; margin: auto;position: absolute; text-align: right; color: #fff; }

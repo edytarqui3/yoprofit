@@ -1,0 +1,298 @@
+/*-----------------------------------------------------------------------------------*/
+/*  00. RESET
+/*-----------------------------------------------------------------------------------*/ 
+a {color: #fff; -webkit-transition: all 200ms ease-in; -o-transition: all 200ms ease-in;  -moz-transition: all 200ms ease-in; text-decoration: none; }
+a:hover,a:focus { color: #f6c206; text-decoration: none; }
+ol, ul, li{ list-style-type: none; margin: 0; padding: 0;}
+iframe{border:0;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  01. GENERAL
+/*-----------------------------------------------------------------------------------*/
+body{ font-size: 0.9rem; /*font-family:'Lato', sans-serif; */ font-family: 'Montserrat', sans-serif; color: #000; background-color: #fafafa; }
+h1{margin: 0; padding: 0; font-size: initial;}
+h2, h3, h4, h5, h6{font-weight: bold;}
+.bold{ font-weight: bold;}
+.italic{font-style: italic; }
+.center{ text-align: center;}
+.uppercase{ text-transform: uppercase;}
+.space-left{padding-left: 10%;}
+.space-left-first{margin-left: 5px;}
+.divider-minimal { width: 38px; margin-left: auto; margin-right: auto; padding-bottom: 2px;
+  border-top: 3px solid; border-bottom: 1px solid; color: #000; }
+* + .divider-minimal,
+.divider-minimal + * { margin-top: 25px; margin-bottom: 30px; }
+.owl-theme .owl-nav [class*="owl-"]{background: #db0070;}
+.title{ color: #fff; font-weight: normal; font-size: 3rem;}
+.error_message{color: #FF0000;}
+
+/*===== toTop =====*/ 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.7;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+  /* Netscape */
+  -moz-opacity: 0.7;
+  /* Safari 1.x */
+  -khtml-opacity: 0.7; 
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+-moz-box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.4);
+-webkit-box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.4);
+box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+#myBtn:hover {
+  background-color: #555;
+  opacity: 0.7;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+  /* Netscape */
+  -moz-opacity: 0.7;
+  /* Safari 1.x */
+  -khtml-opacity: 0.7; 
+  color: #fff;
+}
+
+.btn-1 {padding:5px 32px;font-weight: 700;letter-spacing: .04em;border-radius: 35px;
+ -webkit-transition:all 0.7s ease; -moz-transition:all 0.7s ease; -o-transition:all 0.7s ease; transition:all 0.7s ease; color: #000 !important;margin: 10px 0 15px 0;display: inline-block;background-color: rgba(255,255, 255, 1);text-align: center;text-transform: uppercase;
+}
+.btn-1:hover { background-color: #f6c206; color: #000 !important;  text-decoration:none; }
+
+/*-------------breadcrumb ---------*/
+.breadcrumb{ background: none;}
+.breadcrumb li a{color: #000; text-decoration: underline;}
+.breadcrumb li a:hover{ text-decoration: none; color: #f6c206;}
+.breadcrumb-item.active{color: #db0070;}
+.breadcrumb-item.active span{ font-weight: bold;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02. HEADER
+/*-----------------------------------------------------------------------------------*/
+header{background-color: #db0070;}
+#header-nav {background-color: #db0070;padding-top: 0; padding-bottom: 0;}
+#main-menu{ margin: 0 auto;}
+ 
+#navbarNavDropdown li a{ text-transform: uppercase; color: #fff; font-weight: 500; }
+#navbarNavDropdown li a:hover, .active-menu{ background-color: #f6c206; -moz-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear;} 
+ 
+.dropdown-menu{ background-color:#db0070; top: 90%;font-size: 0.9rem;}
+.dropdown-item{ line-height: initial !important;}
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256,256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+.navbar-light .navbar-toggler { border-color: rgba(256, 256,256, 1); }
+/*multilevel nav */
+ .dropdown:hover>.dropdown-menu { display: block;}
+
+/*----------------------------------*/
+/* social list
+/*----------------------------------*/
+.social-list li{display: inline-block;padding: 12px 8px 0 7px;}
+.social-list li a{font-size: 25px; color: #fff; -moz-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear;}
+.social-list li a:hover{ text-decoration: none; color:#f6c206; }
+
+/*-----------------------------------------------------------------------------------*/
+/*  03. PROMOCIONES
+/*-----------------------------------------------------------------------------------*/
+#promociones{padding: 5.5rem 0; background-color: #fdefbf;}
+#promociones h5{text-transform: uppercase;}
+#promociones .caption hr.divider-minimal{ color: #fff; margin: 20px 0 0 0;}  
+#promociones .prev-slide, #promociones .next-slide{padding-left: 10px;padding-right: 10px;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  04. MENU CATEGORIAS
+/*-----------------------------------------------------------------------------------*/
+#menu-heladeria-globos{ padding: 5.5rem 0; background-color: #fafafa;padding-top: 2.5rem;}
+.caption-menu{ background-color: #db0070;border-bottom-left-radius: .75rem;border-bottom-right-radius: .75rem;text-align: center; color: #fff;
+  /*
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+box-shadow: 0 10px 6px -6px #777;
+*/
+-webkit-box-shadow: 0 20px 15px -18px #777;
+  -moz-box-shadow: 0 20px 15px -18px #777;
+box-shadow: 0 20px 15px -18px #777;
+}
+.caption-menu ul{min-height: 113px;overflow: hidden;max-height: 113px;}
+.caption-menu li{font-size: 1.2rem;/*line-height: 19px;*/}
+.caption-menu h3{ text-transform: uppercase;padding-top: 10px; font-size: 1.75rem;margin-bottom: 0;}
+.caption-menu a.button{ margin-bottom: 15px;}
+#slider-menu .owl-stage-outer{padding-bottom: 25px;} /* para que se vea la sombra del cuadradito*/
+#slider-menu .owl-theme .owl-nav{ margin-top: 0;}
+#slider-menu .item .img-menu{background-color: #ccc;border-top-left-radius: .75rem;border-top-right-radius: .75rem;display: block;overflow: hidden; /*padding: 1px 1px 0 1px;*/}
+#slider-menu .active.center {
+  transform: scale(1);
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+}
+#slider-menu .active {
+  transform: scale(.8);
+  transition: .6s ease;  
+}
+#slider-menu .active:after {content: ''; display: block; width: 100%;height: 100%; top: 0;
+    left: 0; position: absolute; background: rgba(0,0,0,.6); z-index: 1; border-radius: .75rem; }
+#slider-menu .active.center:after{ background: none !important; left: initial !important;
+    top: initial !important;}
+
+#menu-heladeria-globos h2{ text-align: center; margin-bottom: 2.5rem;text-transform: uppercase;}
+#menu-heladeria-globos .prev-slide, #menu-heladeria-globos .next-slide{padding-left: 10px;padding-right: 10px;}
+#slider-menu .item{}
+
+/*-----------------------------------------------------------------------------------*/
+/*  05. SERVICIOS
+/*-----------------------------------------------------------------------------------*/
+#servicios{background-color: #fff;padding: 5.5rem 0;}
+#servicios h4.card-title, #servicios h4{ text-transform: uppercase; font-size: 1rem;margin: 0; text-align: center;}
+#servicios .card-body{color: #fff; background: rgba(219,0,112,1);padding: 1rem;
+position: absolute; left: 0;right: 0;bottom:1rem;margin-right: 1rem;margin-left: 1rem;
+padding: 0.5rem 0;}
+#servicios .card-body:hover{background-color:rgba(246,194,6,1);}
+#servicios .card-body h4 span{font-weight: normal;}
+#servicios .caption hr.divider-minimal{ color: #fff; margin: 20px 0 0 0;}
+
+.servicios-thumb{position: relative;}
+.servicios-heading{position: absolute; left: 0; right: 0; bottom: 10px; padding-right: 45px; padding-left: 45px; width: 100%; color: #fff;}
+.servicios-heading h4 {font-size: 1em; text-transform: uppercase; text-align: center; background-color:rgba(219,0,112,1); padding: 10px 0;}
+.servicios-heading h4:hover{ background-color:rgba(246,194,6,1); }
+.servicios-thumb h4 span{font-weight: normal;}
+
+.img-thumbnail-variant-1 { position: relative; perspective: 1000px;}
+.img-thumbnail-variant-1 .caption { opacity: 0;  transform: scale(0.8);}
+.img-thumbnail-variant-1 .caption { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; transition: 350ms ease-in-out; color: #fff; }
+.img-thumbnail-variant-1 img { width: 100%; }
+.img-thumbnail-variant-1:hover .caption { opacity: 1;  transform: scale(1);}
+.img-thumbnail-variant-1:hover .img-thumbnail-text > * {  transform: scale(1); opacity: 1; }
+.img-thumbnail-text { flex-direction: column; padding-left: 10%; padding-right: 10%; text-align: center;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  06. TESTIMONIOS
+/*-----------------------------------------------------------------------------------*/
+#testimonios{ color: #fff;}
+#testimonios .row{position: relative; z-index: 2;}
+.parallax.parallax5 {background: url(../../images/frontend/testimonios_bg.jpg) fixed no-repeat center center; -webkit-background-size: cover; background-size: cover; position: relative; padding:3rem 0 0 0; }
+.parallax.parallax5:after {width:100%; height:100% }
+.parallax5:after {content: ''; display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; background: rgba(0,0,0,0); z-index: 1; }
+#testimonios ul.testimonios-list{float: right;}
+#testimonios ul.testimonios-list li, #slider-testimonios .item{margin-bottom: 50px; text-align: center;font-size: 1.2rem; }
+ #testimonios h2{margin-bottom: 50px;font-weight: bold;}
+.buscanos-redes{ clear: both; text-align: center;}
+.buscanos-redes span{ font-size: 1rem;}
+#testimonios blockquote{color: #fff; padding: 10px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+/*#testimonios-bg-mano{background: url(../../../resources/images/frontend/testimonios_mano_peq.png);   background-size: cover;background-position: center center; min-height:700px;}
+*/
+ 
+#wrapper-testimonios{background: url(../../images/frontend/testimonios_mano_peq.png) no-repeat; background-size: contain; background-position: 15% 0; min-height:500px;}
+#testimonios-text{padding-top: 5rem;}
+ 
+/*-----------------------------------------------------------------------------------*/
+/*  07. NOSOTROS
+/*-----------------------------------------------------------------------------------*/
+.parallax.parallax2 { background: url(../../images/frontend/globos_artesanal_bg.jpg) fixed no-repeat top center;  -webkit-background-size: cover; background-size: cover; position: relative; /*padding: 11.5rem 0;*/ }
+.parallax.parallax2:after {width:100%; height:100% }
+.parallax2:after { content: ''; display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; background: rgba(0,0,0,0); z-index: 1; }
+.helado-artesanal{ color: #fff; font-weight: bold;}
+.helado-artesanal hr{ width: 8.5rem; border:none; height: 2px; margin-top: 0; border-bottom: 3px solid #fff; /*box-shadow: 7px 3px 5px rgba(0, 0, 0, 0.4);*/ float: left;}
+.helado-artesanal span{ display: block;clear: both;}
+.texto1{ font-size: 3rem;line-height: 40px;}
+#nosotros .texto2{ font-size: 5rem;line-height: 40px;letter-spacing: -6px;}
+.texto3{ font-size: 2rem;line-height: 30px;}
+.bg-helado-artesanal{}
+
+.nosotros-inner{ padding: 5.5rem 0;}
+figure.img_inner { display: block; overflow: hidden; height: auto; line-height: 0; margin: 0; }
+figure iframe { width: 100%; height: 200px; border: none; }
+#ambientes{padding: 5rem 0 0 0;}
+.nosotros-inner h2{ text-transform: uppercase; font-size: 0.8rem; margin-bottom: 2rem;}
+.nosotros-inner h2 span{border-bottom: 1px solid #000;padding-bottom: 5px;}
+.historia{font-size: 1.1rem;text-align: justify;}
+.nosotros-inner .space-left{margin-top: 2rem;}
+#nosotros .italic{text-align: justify;}
+#nosotros .first-title{padding-left: 10%;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  08. CONTACTO
+/*-----------------------------------------------------------------------------------*/
+.parallax.parallax3 { background: url(../../images/frontend/bg_contacto.jpg) fixed no-repeat top center;  -webkit-background-size: cover; background-size: cover; position: relative; padding: 3rem 0; }
+.parallax.parallax3:after {width:100%; height:100% }
+.parallax3:after { content: ''; display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; background: rgba(0,0,0,0); z-index: 1; }
+ 
+.bg-logo{background: url(../../images/frontend/bg_logo_heladeria_globos.png); background-repeat: no-repeat; background-size: contain; background-position: center center; /*width: 411px;*/ max-width: 320px; height: 112px; margin: 0 auto;}
+#contacto .row .card{margin-bottom: 1rem;}
+#contacto .row .card h5{ font-size: 0.9rem; font-weight: bold; margin: 0;}
+#contact-form{ margin-top: 3rem;}
+#captchacode{ margin-bottom: 10px;}
+#contacto .row{z-index: 2;position: relative;}
+#contact-form .form-control{border: 1px solid #db0070; background-color: rgba(256,256,256,0.6); }
+.form-control:focus{background-color: #f6c206 !important; color: #fff;}
+
+.warning{color:#f9c01d;}
+.error_message{color:#d70c24;}
+.success{color:#fff; font-weight: bold;}
+.mensaje_enviado{background-color: #fdf9eb;padding: 10px;margin-bottom: 20px;}
+
+.button { position:relative; display:inline-block; width:auto; max-width:100%; border:1px solid; border-radius:0; padding:13px 14px; font-size:1rem; line-height:16px; font-weight:400; letter-spacing:.16em; transition:.33s color ease,.25s transform ease,.43s color ease;
+ white-space:normal; text-transform:uppercase; cursor:pointer; text-align:center; box-shadow:2px 3px 0 0;}
+.button:before { position:absolute; bottom:0; top:100%; left:100%; right:0; content:"";
+ display:inline-block; transition:.28s all ease; z-index:0;}
+.button span { position:relative;}
+.button:hover { box-shadow:0 0; transform:translate3d(2px,3px,5px);}
+.button:hover:before { top:0; left:0}
+.button-gray-light-outline {color: #000; background-color: transparent;   border-color: #000;}
+.button-gray-light-outline:hover {color:#fff !important;}
+.button-gray-light-outline:hover span {color:#fff !important;}
+.button-gray-light-outline:before {background-color: #000;}
+#btn-submit{margin-left: 3rem;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  09. PRODUCTOS
+/*-----------------------------------------------------------------------------------*/
+#productos{padding: 0 0 5.5rem 0;}
+#productos #slider-productos h3{text-align: center; font-size: 0.8rem;}
+#productos .mini-menu img{max-height: 174px; max-width: 235px;margin: 0 auto;}
+.wrapper-productos{background-color: #db0070;color: #fff; padding: 2rem 4rem;margin-top: 1rem;}
+.wrapper-productos h3{ font-size: 1.2rem; color: #f6c206; text-transform: uppercase;border-bottom: 1px dashed #bfa23a;margin-bottom: 20px;padding-bottom: 5px;}
+.wrapper-productos h4{ font-size: 1rem;}
+.wrapper-productos h4 span{ margin-left: 10px; float: right;}
+.wrapper-productos p{ text-align: justify;}
+/*.wrapper-productos .row div[role="colu"]{ border-bottom: 1px dotted #ccc; margin-bottom: 10px;}*/
+
+.pdf{text-align: right !important;font-size: 16px;text-transform: uppercase;background: url(../../images/frontend/descargar_menu.png) 100% 100% no-repeat;margin: 0;}
+.pdf span{ font-size: 20px;margin-right: 30px;}
+.col-left{margin-right: 40px;}
+.col-right{margin-left: 40px;}
+#slider-productos .owl-next, #slider-productos .owl-prev{padding-left: 10px !important;padding-right: 10px !important;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  10. FOOTER
+/*-----------------------------------------------------------------------------------*/
+footer{ background-color: #db0070;overflow: hidden;}
+.copyright {margin: 20px auto;text-align: center;font-size:0.7rem;padding: 30px 0; color: #fff;}
+#horarios, #horarios-wrap{ background-color: #fff;}
+#horarios .horarios-title{color: #db0070; text-align: left;margin: 0 0 30px 0;font-weight: normal;font-family: 'Journey to Thailand Light';padding-left: 7%; font-size: 4.5rem;/*max-width: 5.5em;*/overflow: visible;line-height: 1.2;padding-top: 10px;padding-bottom: 10px;}
+#horarios h3{ font-size: 1rem; font-weight: bold; text-transform: uppercase; margin-bottom: 1.5rem;}
+#horarios h4{ font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
+#horarios .wrapper-img{ padding: 0; background: url(../../images/frontend/helados_chica.jpg); background-size: cover;background-position: center center;}
+#horarios .social-list{ margin-bottom: 1rem; margin-top: 2rem;}
+#horarios .social-list li{ padding-top: 0;}
+#col-phones span{ display: block; margin-bottom: 15px;}
+.email-heladeria-globos{font-weight: bold;font-size: 1rem; /*margin: 1rem 0 0 0;*/padding-left: 8%; font-size:1.3rem;}
+.reverse {unicode-bidi: bidi-override; direction: rtl;}
+footer .social-list li a{font-size: 25px; color: #000; -moz-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear;}
+footer .social-list li a:hover{ text-decoration: none; color:#db0070; }

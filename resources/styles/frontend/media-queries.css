@@ -1,0 +1,102 @@
+/*-----------------------------------------------------------------------------------
+  RESPONSIVE
+-----------------------------------------------------------------------------------*/
+@media  (min-width: 1400px) {
+	/*.parallax.parallax2{padding: 20rem 0;}*/
+}
+@media  (min-width: 1367px) {
+	#horarios .horarios-title{ font-size: 6.2rem;}
+	.email-heladeria-globos{font-size: 1.7rem;}
+}
+@media  (min-width: 1024px) {
+	#servicios .card-body{margin-right: 4rem;margin-left: 4rem;}
+}
+@media  (min-width: 992px) { 
+	#contact-form{padding: 0 150px;}
+	#header-nav {padding-left: 3.3rem;padding-right: 3rem;}
+}
+@media  (min-width: 768px) { 
+	#header-nav ul#main-menu{min-height: 64px; vertical-align: middle; line-height: 64px;}	
+	.wrapper-text{margin: 5.5rem 0 5.5rem 0;}	
+
+	#promociones .nav-btn{ height: 47px;width: 26px; position: absolute; cursor: pointer;
+	  top: 40%;}
+	#promociones .owl-prev.disabled,#promociones .owl-next.disabled{pointer-events: none;
+	opacity: 0.2;}
+	#promociones .prev-slide span, #promociones .next-slide span{display: none;}
+	#promociones .prev-slide{ background: url(../../images/frontend/nav-icon.png) no-repeat scroll 0 0;
+	  left: -27px;}
+	#promociones .next-slide{ background: url(../../images/frontend/nav-icon.png) no-repeat scroll -24px 0px; right: -27px;}
+	#promociones .prev-slide:hover{ background-position: 0px -53px;}
+	#promociones .next-slide:hover{background-position: -24px -53px;} 	
+}
+@media  (max-width: 320px) {
+	#btn-submit { margin-left: 0.5rem;}
+}
+@media  (max-width: 376px) {
+	#wrapper-testimonios{background-position: -130px 0 !important;}
+}
+@media  (max-width: 576px) {
+	.space-left-sm{ padding-left: 10%;}
+	.px-5{padding-left: initial !important; padding-right: initial !important;}
+	.carousel-item h2{font-size: 5.5vw!important;}
+	#menu-heladeria-globos{padding-left: 2.5rem !important; padding-right: 2.5rem !important;}
+	#menu-heladeria-globos h2{ font-size: 1.2rem;}
+}
+@media  (max-width: 575px) {
+	#servicios .card-body{margin-right: 4rem;margin-left: 4rem;}
+	#wrapper-testimonios{ /*background: none;min-height: initial;*/padding-bottom:3rem;}
+	#testimonios-text { padding-top: 0 !important;}
+	#wrapper-testimonios{ min-height: 400px;}
+	#bootstrap-touch-slider .slide1-text2{top: -5px; right: 13%;}
+	#bootstrap-touch-slider .slide2-text2{ top: -5px; right: 13%;}
+	#bootstrap-touch-slider .slide2-text1{left: 18%; top: 0;}
+	#bootstrap-touch-slider .slide4-text1{top: 0;}
+	#bootstrap-touch-slider .slide4-text2{top: 0;}
+}
+@media  (max-width: 767px){
+	#horarios .wrapper-img{ background: none;}
+	#horarios .horarios-title{max-width: initial;font-size:3.2rem;}	
+	.email-heladeria-globos{font-size:0.9rem;}
+	#wrapper-testimonios{background-position: 0 0;}
+}
+@media  (max-width: 768px){	 
+	#navbarNavDropdown li a{padding-left: 20px;}	 
+	.wrapper-text{margin: 3rem 0 3rem 0;}
+	.parallax.parallax5{padding: 3rem 0 0 0;}
+	#servicios{padding: 3rem 0;}
+	.nosotros-inner{ padding: 3rem 0;}
+	#contacto{ padding: 3rem 0;}
+	#promociones{padding: 3rem 0;}
+	.space-text{margin-top: 3rem;}
+	#header-nav .social-list{ display: none !important;}
+	#menu-heladeria-globos{padding: 3rem 0;}
+	#productos{padding: 0 0 3rem 0;}
+	#promociones .owl-dots{ display: none;}
+	.wrapper-productos .col-left{margin-right: 0;}
+	.wrapper-productos .col-right{margin-left: 0;}
+	.wrapper-productos h2{font-size: 2.5rem;}
+	.wrapper-productos{ padding: 2rem 2rem;}
+	#testimonios-text { padding-top:3rem;}	 
+}
+@media  (max-width: 992px){
+	#menu-heladeria-globos h2{ font-size: 1.5rem;}	
+	#navbarNavDropdown li a{font-size: 0.85rem;}	 
+}
+@media  (max-width: 1200px){
+	.caption-menu h3{font-size: 1.4rem;}
+}
+@media only screen and (min-width: 377px) and (max-width: 575px){
+	#wrapper-testimonios{background-position: -80px 0 !important;}
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+	#slider-menu .caption-menu li{ font-size: 1rem;}
+	#servicios h4.card-title, #servicios h4{font-size: 0.8rem;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	#servicios .card-body{margin-right: 2.5rem;margin-left: 2.5rem;}
+	#servicios h4.card-title, #servicios h4{font-size: 0.9rem;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+	#promociones .container { max-width: 930px;}
+}
